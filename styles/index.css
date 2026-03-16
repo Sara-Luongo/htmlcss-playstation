@@ -1,3 +1,4 @@
+/*topbar*/
 .topbar {
     display: flex;
     justify-content: end;
@@ -8,4 +9,18 @@
 
 .topbar img {
     width: 10%;
+}
+
+/*navbar*/
+div .item-container img {
+    width: 10%;
+}
+
+.custom-btn {
+    background-color: rgb(72, 70, 70);
+    border-radius: 30px;
+    border: 0;
+    color: white;
+    padding: 0px 6px;
+
 }
