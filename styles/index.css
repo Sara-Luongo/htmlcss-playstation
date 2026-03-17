@@ -95,3 +95,44 @@ div .item-container img {
 .img-w {
     width: 100%;
 }
+
+.img-wt {
+    width: 30%;
+}
+
+
+/*console playstation 5 section*/
+.ps-text-container {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ps-text-container :first-child {
+    margin: 0;
+    color: rgb(0, 128, 255);
+}
+
+.ps-text-container-2 {
+    margin-left: 25px;
+
+
+}
+
+.custom-btn-blu {
+    background-color: rgb(0, 128, 255);
+    border-radius: 30px;
+    border: 0;
+    color: white;
+    padding: 5px 8px;
+
+}
+
+@media(min-width: 768px) {
+    .wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+
+}
