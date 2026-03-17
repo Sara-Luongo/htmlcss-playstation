@@ -101,7 +101,7 @@ div .item-container img {
 }
 
 
-/*console playstation 5 section*/
+/*console playstation 5 stile terza section*/
 .ps-text-container {
     text-align: center;
     margin-top: 30px;
@@ -136,3 +136,49 @@ div .item-container img {
 
 
 }
+
+/* inizio stile quarta section playstation game*/
+.hero-container-due {
+    position: relative;
+    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-banner-due {
+    position: absolute;
+    top: 33px;
+    left: 23px;
+
+}
+
+.hero-banner-due img {
+    width: 50%;
+
+}
+
+@media(min-width: 768px) {
+    .hero-banner-due img {
+        width: 40%;
+    }
+}
+
+
+
+@media(min-width: 992px) {
+    .hero-banner-due img {
+        width: 30%;
+    }
+}
+
+@media(min-width: 992px) {
+    .hero-banner-due {
+        position: absolute;
+        top: 33px;
+        left: 23px;
+    }
+}
+
+/*inizio stile quinta section playstation5 e plaistation4 game*/
