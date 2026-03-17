@@ -208,7 +208,7 @@ div .item-container img {
     }
 }
 
-/*inizio stile sesta section banner playstation plus*/
+/*inizio stile settima section banner playstation plus*/
 .ps-plus-section {
     width: 100%;
 }
@@ -282,4 +282,19 @@ div .item-container img {
     .ps-plus-text p {
         font-size: 14px;
     }
+}
+
+/*inizio stile settima section*/
+.text-sconti {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.container-immagni-sconti {
+    text-align: center;
 }
