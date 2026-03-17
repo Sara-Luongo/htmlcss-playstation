@@ -24,3 +24,74 @@ div .item-container img {
     padding: 0px 6px;
 
 }
+
+
+/*hero*/
+.hero-container {
+    position: relative;
+    background-image: url(/img/jumbo-bg.png);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-container h1 {
+    margin-bottom: 20px;
+}
+
+.hero-banner {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+
+}
+
+@media(min-width: 992px) {
+    .hero-banner {
+        position: absolute;
+        top: 170px;
+        left: 20px;
+    }
+}
+
+.hero-banner img {
+    width: 45%;
+
+}
+
+@media(min-width: 992px) {
+    .hero-banner img {
+        width: 30%;
+    }
+}
+
+.text-hero-container {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+}
+
+@media(min-width: 992px) {
+    .text-hero-container {
+        max-width: 370px;
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        color: white;
+    }
+}
+
+.custom-btn-red {
+    background-color: rgb(249, 61, 9);
+    border-radius: 30px;
+    border: 0;
+    color: white;
+    padding: 5px 8px;
+    margin-bottom: 20px
+}
+
+.img-w {
+    width: 100%;
+}
