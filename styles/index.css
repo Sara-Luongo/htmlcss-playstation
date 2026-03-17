@@ -182,3 +182,104 @@ div .item-container img {
 }
 
 /*inizio stile quinta section playstation5 e plaistation4 game*/
+.game-card p {
+    color: white;
+}
+
+/*inizio stile sesta section console playstation4*/
+.text-container-ps4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-container {
+    padding-left: 20px;
+}
+
+.ps4-card img {
+    width: 100%;
+}
+
+@media(min-width: 768px) {
+    .card-container {
+        display: flex;
+        padding: 0;
+        margin-left: 20px;
+    }
+}
+
+/*inizio stile sesta section banner playstation plus*/
+.ps-plus-section {
+    width: 100%;
+}
+
+.ps-plus-container {
+    background-color: rgb(75, 72, 72);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ps-plus-text {
+    width: 50%;
+}
+
+.ps-plus-logo {
+    width: 180px;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.ps-plus-text p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.custom-btn-gainsboro {
+    background-color: gainsboro;
+    color: blue;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+
+}
+
+.ps-plus-image {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-plus {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .ps-plus-container {
+        padding: 20px;
+    }
+
+    .ps-plus-text {
+        width: 100%;
+    }
+
+    .ps-plus-image {
+        display: none;
+    }
+
+    .ps-plus-logo {
+        width: 160px;
+    }
+
+    .ps-plus-text p {
+        font-size: 14px;
+    }
+}
